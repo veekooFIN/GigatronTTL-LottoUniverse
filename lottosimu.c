@@ -210,19 +210,19 @@ scanf("%d",&cup);
  
   saldo = cash - game * 2 -2;
 
-  if(sil != 1 && saldo > 1) printf("\nEurojackpot round, win, 1 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 10) printf("\nEurojackpot round, win, 10 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 100) printf("\nEurojackpot round, win, 100 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 1000) printf("\nEurojackpot round, win, 1 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 10000) printf("\nEurojackpot round, win, 10 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 100000) printf("\nEurojackpot round, win, 100 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 1000000) printf("\nEurojackpot round, win, 1 000 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 10000000) printf("\nEurojackpot round, win, 10 000 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(sil != 1 && saldo > 100000000) printf("\nEurojackpot round, win, 100 000 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 1) printf("\nEurojackpot game round, win, 1 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 10) printf("\nEurojackpot game round, win, 10 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 100) printf("\nEurojackpot game round, win, 100 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 1000) printf("\nEurojackpot game round, win, 1 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 10000) printf("\nEurojackpot game round, win, 10 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 100000) printf("\nEurojackpot game round, win, 100 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 1000000) printf("\nEurojackpot game round, win, 1 000 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 10000000) printf("\nEurojackpot game round, win, 10 000 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 100000000) printf("\nEurojackpot game round, win, 100 000 000 euro saldo:\t\t\t %d+%d+%d\n",game,cash,saldo);
   }
  
   //if(saldo > 1000000) 
-  printf("\nEurojackpot iteration, round, win, saldo:\t\t\t %d + %d + %d + %d\n",it,game,cash,saldo);
+  printf("\nEurojackpot iteration, game round, win, saldo:\t\t\t %d + %d + %d + %d\n",it,game,cash,saldo);
 }
 }  
 
