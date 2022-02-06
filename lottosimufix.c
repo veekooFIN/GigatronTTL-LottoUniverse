@@ -27,14 +27,14 @@ void main()
   int big; //big saldo annoucements mode 0-10000
 
   cprintf("Eurojackpot simulation:\n");
-  cprintf("\nOne fixed row of your choice:\n");
+  cprintf("\nOne fixed row:\n");
   b0[0]=readint("Enter 1-50 nbr#1:");
   b0[1]=readint("Enter 1-50 nbr#2:");
   b0[2]=readint("Enter 1-50 nbr#3:");
   b0[3]=readint("Enter 1-50 nbr#4:");
   b0[4]=readint("Enter 1-50 nbr#5:");
-  bt0[0]=readint("Enter 1-10 starnbr#1:");
-  bt0[1]=readint("Enter 1-10 starnbr#2:");
+  bt0[0]=readint("Enter 1-10 star nbr#1:");
+  bt0[1]=readint("Enter 1-10 star nbr#2:");
   eit=readint("Nbr of iterations:");
   egame=readint("Nbr of games:");
   sil=readint("Printout silence 0/1:");
