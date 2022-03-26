@@ -141,50 +141,50 @@ void main()
       if(sil != 1) cprintf("\n%ld euro win",jp);
       }
       if(total==5 && totalbt==1) {
-      cash=cash+580000;
-      if(sil != 1) cprintf("\n580 000 euro win");
+      cash=cash+600000;
+      if(sil != 1) cprintf("\n600 000 euro win");
       }
       if(total==5 && totalbt==0) {
-      cash=cash+91000;
-      if(sil != 1) cprintf("\n91 000 euro win");
+      cash=cash+150000;
+      if(sil != 1) cprintf("\n150 000 euro win");
       }
       if(total==4 && totalbt==2) {
-      cash=cash+6100;
-      if(sil != 1) cprintf("\n6100 euro win");
+      cash=cash+5000;
+      if(sil != 1) cprintf("\n5000 euro win");
       }
       if(total==4 && totalbt==1) {
-      cash=cash+280;
-      if(sil != 1) cprintf("\n280 euro win");
-      }
-      if(total==4 && totalbt==0) {
-      cash=cash+90;
-      if(sil != 1) cprintf("\n90 euro win");
+      cash=cash+310;
+      if(sil != 1) cprintf("\n310 euro win");
       }
       if(total==3 && totalbt==2) {
-      cash=cash+88;
-      if(sil != 1) cprintf("\n88 euro win");
+      cash=cash+155;
+      if(sil != 1) cprintf("\n155 euro win");
+      }
+      if(total==4 && totalbt==0) {
+      cash=cash+110;
+      if(sil != 1) cprintf("\n110 euro win");
       }
       if(total==2 && totalbt==2) {
-      cash=cash+28;
-      if(sil != 1) cprintf("\n28 euro win");
+      cash=cash+25;
+      if(sil != 1) cprintf("\n25 euro win");
       }
       if(total==3 && totalbt==1) {
       cash=cash+20;
       if(sil != 1) cprintf("\n20 euro win");
       }
       if(total==3 && totalbt==0) {
-      cash=cash+12;
-      if(sil != 1) cprintf("\n12 euro win");
+      cash=cash+17;
+      if(sil != 1) cprintf("\n17 euro win");
       }   
       if(total==1 && totalbt==2) {
-      cash=cash+14;
-      if(sil != 1) cprintf("\n14 euro win");
+      cash=cash+13;
+      if(sil != 1) cprintf("\n13 euro win");
       }
       if(total==2 && totalbt==1) {
-      cash=cash+9;
-      if(sil != 1) cprintf("\n9 euro win");
+      cash=cash+10;
+      if(sil != 1) cprintf("\n10 euro win");
       }
-
+      
       saldo = cash - game * 2 -2;
 
       if(sil != 1 && saldo > 100) cprintf("\nGame,win,100 euro saldo:%d+%ld+%ld",game,cash,saldo);
