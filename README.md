@@ -16,4 +16,14 @@ With these you can simulate micro and macro world of playing eurojackpot.
 
 ---------------------------------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------------------------------
+Another lotto game is All or nothing which we simulate here.
+
+KTEM_lotto uses random cupoung and random winning numbers.
+
+KTEM_lottofix uses fixed chosen numbers and random winning numbers.
+
+With these you can simulate micro and macro world of playing all or nothing.
+
+---------------------------------------------------------------------------------------------------------------
 Some tips in devenv101.txt
