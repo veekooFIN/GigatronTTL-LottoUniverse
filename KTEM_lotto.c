@@ -45,7 +45,7 @@ void main()
   int cup; //cupoung silence mode
   int big; //big saldo annoucements mode 0-10000
 
-  cprintf("Kaikki Tai Ei Mitaan simulation:\n"); 
+  cprintf("All or nothing simulation:\n"); 
   eit=readint("\nNbr of iterations:");
   egame=readint("Nbr of games:");
   sil=readint("Printout silence 0/1:");

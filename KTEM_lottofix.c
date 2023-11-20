@@ -45,7 +45,7 @@ void main()
   int cup; //cupoung silence mode
   int big; //big saldo annoucements mode 0-10000
 
-  cprintf("Kaikki Tai Ei Mitaan simulation:\n");
+  cprintf("All or nothing simulation:\n");
   cprintf("\nOne fixed row:\n");
   b0[0]=readint("Enter 1-24 nbr#1:");
   b0[1]=readint("Enter 1-24 nbr#2:");
@@ -59,7 +59,7 @@ void main()
   b0[9]=readint("Enter 1-24 nbr#10:");
   b0[10]=readint("Enter 1-24 nbr#11:");
   b0[11]=readint("Enter 1-24 nbr#12:");
-  bt0[0]=readint("Enter 1-4 apila nbr#1:");
+  bt0[0]=readint("Enter 1-4 trefoil nbr#1:");
   eit=readint("\nNbr of iterations:");
   egame=readint("Nbr of games:");
   sil=readint("Printout silence 0/1:");
