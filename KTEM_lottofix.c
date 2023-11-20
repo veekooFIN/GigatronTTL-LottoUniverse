@@ -17,8 +17,8 @@
 
 /*----------------------------------------------------------------------+
  |                                                                      |
- |     KTEM_lotto.c -- demonstrate lotto number simulation              |
- |                    of Kaikki Tai Ei Mitaan                           |
+ |     KTEM_lottofix.c -- demonstrate lotto number simulation           |
+ |                        of All or nothing                             |
  |                                                                      |
  +----------------------------------------------------------------------*/
 
