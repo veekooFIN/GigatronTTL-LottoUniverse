@@ -96,7 +96,7 @@ void main()
         }
       }
 
-      if(cup != 1) cprintf("\nRow1:%d+%d+%d+%d+%d*%d+%d",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
+      if(cup != 1) cprintf("\nMy row:%d+%d+%d+%d+%d*%d+%d",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
       sw=0;
       bb[0]=0;
       bb[1]=0;
@@ -133,7 +133,7 @@ void main()
         }
       }
 
-      if(cup != 1) cprintf("\nWinning row:%d+%d+%d+%d+%d*%d+%d",bb[0],bb[1],bb[2],bb[3],bb[4],bbt[0],bbt[1]);
+      if(cup != 1) cprintf("\nWin row:%d+%d+%d+%d+%d*%d+%d",bb[0],bb[1],bb[2],bb[3],bb[4],bbt[0],bbt[1]);
 
       jp=rand() % 110000000 + 10000000; //jackpot 10-120 milj. euro
       total=0;
@@ -161,7 +161,7 @@ void main()
         }
       }
 
-      if(cup != 1) cprintf("\nNumbers correct Row1:%d*%d",total,totalbt);
+      if(cup != 1) cprintf("\nNumbers correct:%d*%d",total,totalbt);
 
       if(total==5 && totalbt==2) {
       cash=cash+jp;
