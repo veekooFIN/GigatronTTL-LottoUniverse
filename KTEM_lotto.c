@@ -89,7 +89,7 @@ void main()
 
       bt0[0]=rand() % 4 +1;
 
-      if(cup != 1) cprintf("\nRow:%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d*%d",b0[0],b0[1],b0[2],b0[3],b0[4],b0[5],b0[6],b0[7],b0[8],b0[9],b0[10],b0[11],bt0[0]);
+      if(cup != 1) cprintf("\nMy row:%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d*%d",b0[0],b0[1],b0[2],b0[3],b0[4],b0[5],b0[6],b0[7],b0[8],b0[9],b0[10],b0[11],bt0[0]);
       sw=0;
       bb[0]=0;
       bb[1]=0;
@@ -119,7 +119,7 @@ void main()
 
       bbt[0]=rand() % 4 +1;
       
-      if(cup != 1) cprintf("\nWinning row:%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d*%d",bb[0],bb[1],bb[2],bb[3],bb[4],bb[5],bb[6],bb[7],bb[8],bb[9],bb[10],bb[11],bbt[0]);
+      if(cup != 1) cprintf("\nWin row:%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d*%d",bb[0],bb[1],bb[2],bb[3],bb[4],bb[5],bb[6],bb[7],bb[8],bb[9],bb[10],bb[11],bbt[0]);
 
       total=0;
 
@@ -140,7 +140,7 @@ void main()
             totalbt++;
           }
   
-      if(cup != 1) cprintf("\nNumbers correct Row:%d*%d",total,totalbt);
+      if(cup != 1) cprintf("\nNumbers correct:%d*%d",total,totalbt);
 
       if((total==12 && totalbt==1)||(total==0 && totalbt==1)) {
       cash=cash+500000;
