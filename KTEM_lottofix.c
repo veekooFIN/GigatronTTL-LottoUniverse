@@ -59,7 +59,7 @@ void main()
   b0[9]=readint("Enter 1-24 nbr#10:");
   b0[10]=readint("Enter 1-24 nbr#11:");
   b0[11]=readint("Enter 1-24 nbr#12:");
-  bt0[0]=readint("Enter 1-4 trefoil nbr#1:");
+  bt0[0]=readint("Enter 1-4 clover nbr#1:");
   eit=readint("\nNbr of iterations:");
   egame=readint("Nbr of games:");
   sil=readint("Printout silence 0/1:");
