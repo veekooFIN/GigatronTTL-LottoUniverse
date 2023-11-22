@@ -68,35 +68,6 @@ void main()
 
     for(game=0;game<egame;game++) //game rounds how many weeks 1-52
     {
-      /*sw=0;
-
-      for(i=0;i<5;i++)
-      {
-        b0[i]=rand() % 50 +1;
-        for(ii=0;ii<5;ii++)
-        {
-          if(b0[ii] == b0[i] && (ii != i)) sw=1;
-        }
-        if(sw==1){
-          i--;
-          sw=0;
-        }
-      }
-      sw=0;
-
-      for(i=0;i<2;i++)
-      {
-        bt0[i]=rand() % 12 +1;
-        for(ii=0;ii<2;ii++)
-        {
-          if(bt0[ii] == bt0[i] && (ii != i)) sw=1;
-        }
-        if(sw==1){
-          i--;
-          sw=0;
-        }
-      }*/
-
       if(cup != 1) cprintf("\nMy row:%d+%d+%d+%d+%d*%d+%d",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
       sw=0;
       bb[0]=0;

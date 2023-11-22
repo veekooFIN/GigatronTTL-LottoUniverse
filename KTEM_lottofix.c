@@ -74,35 +74,6 @@ void main()
 
     for(game=0;game<egame;game++) //game rounds how many weeks 1-52
     {
-      /*sw=0;
-      b0[0]=0;
-      b0[1]=0;
-      b0[2]=0;
-      b0[3]=0;
-      b0[4]=0;
-      b0[5]=0;
-      b0[6]=0;
-      b0[7]=0;
-      b0[8]=0;
-      b0[9]=0;
-      b0[10]=0;
-      b0[11]=0;
-
-      for(i=0;i<12;i++)
-      {
-        b0[i]=rand() % 24 +1;
-        for(ii=0;ii<12;ii++)
-        {
-          if(b0[ii] == b0[i] && (ii != i)) sw=1;
-        }
-        if(sw==1){
-          i--;
-          sw=0;
-        }
-      }
-
-      bt0[0]=rand() % 4 +1;*/
-
       if(cup != 1) cprintf("\nMy row:%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d+%d*%d",b0[0],b0[1],b0[2],b0[3],b0[4],b0[5],b0[6],b0[7],b0[8],b0[9],b0[10],b0[11],bt0[0]);
       sw=0;
       bb[0]=0;
